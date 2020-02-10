@@ -1,5 +1,4 @@
 keep:
-  ros2/rcl
   ros2/rmw
   ros2/rosidl_defaults
   ros2/rosidl

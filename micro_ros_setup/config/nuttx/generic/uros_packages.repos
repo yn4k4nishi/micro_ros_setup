@@ -2,16 +2,16 @@ repositories:
   NuttX:
     type: git
     url: https://github.com/micro-ROS/NuttX.git
-    version: drive_base
+    version: feature/tof_sensor
   apps:
     type: git
     url: https://github.com/micro-ROS/apps.git
-    version: dashing 
+    version: feature/tof_sensor
   uclibc:
     type: git
     url:  https://github.com/micro-ROS/uclibc.git
-    version: master
+    version: 930566f868889ff0e9d416d2ca19fe15dbb78ffa
   drive_base:
     type: git
     url: https://github.com/micro-ROS/drive_base.git
-    version: master
+    version: dbef27ccb91cfcbf4db56a8038abdf532bae57f1

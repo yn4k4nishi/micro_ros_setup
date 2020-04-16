@@ -190,10 +190,10 @@ ros2 run micro_ros_setup flash_firmware.sh
 
 # Building micro-ROS-Agent
 
-Using this package is possible to install a ready to use **micro-ROS-Agent**:
+Using this package is possible to install a ready to use **micro-ROS-Agent** or **micro-ROS-Agent-Lite**:
 
 ```
-ros2 run micro_ros_setup create_agent_ws.sh
+ros2 run micro_ros_setup [create_agent_ws.sh | create_agent_lite_ws.sh]
 colcon build --meta src
 source install/local_setup.sh
 ros2 run micro_ros_agent micro_ros_agent [parameters]

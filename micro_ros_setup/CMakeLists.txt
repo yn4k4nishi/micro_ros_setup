@@ -42,6 +42,7 @@ install(
   PROGRAMS 
     scripts/create_ws.sh 
     scripts/create_agent_ws.sh 
+    scripts/create_agent_lite_ws.sh
     scripts/create_firmware_ws.sh
     scripts/configure_firmware.sh
     scripts/flash_firmware.sh
